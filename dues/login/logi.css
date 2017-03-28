@@ -1,0 +1,45 @@
+body{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	width:100%;
+	font-family:calibri;
+	height:100%;
+	text-align:center;
+}
+.formContainer{
+	width:300px;
+	margin:auto;
+}
+.form{
+	width:100%;
+}
+#nameCorrect{
+	position:relative;
+	float:right;
+	font-size:23px;
+	color:#ffcc00;
+}
+#passCorrect{
+	position:relative;
+	float:right;
+	color:#ffcc00;
+	font-size:23px;
+}
+input.input{
+	font-size:17px;
+	padding:10px;
+	width:100%;
+	border-radius:5px;
+	border:1px solid #d8d8d8;
+}
+input.submit{
+	font-size:17px;
+	width:100px;
+	border:none;
+	color:white;
+	padding:8px;
+	border-radius:3px;
+	background:#28282c;
+}
